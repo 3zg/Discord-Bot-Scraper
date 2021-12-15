@@ -1,5 +1,5 @@
 # Discord-Bot-Scraper
-A simple Discord scraper for discord bots. That includes sending an guild members ids to an file, Mass inviter for joining servers your bot is in and Fetching all the servers of the bot (w/MemberCount) to the console.
+A simple Discord scraper for discord bots. That includes sending an guild's members ids to an file, Mass inviter for joining servers your bot is in and Fetching all the servers of the bot (w/MemberCount) to the console.
 This is written python so install python to make it work. 
 
 # Setup
