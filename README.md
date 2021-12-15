@@ -10,5 +10,8 @@ This is written python so install python to make it work.
 
 NOTE: There is no external data sharing in this repo.
 
+# Extra help
+If the Scraping of the guild members doesnt work check if it has `[]` only in `ids.json` file and try again.
+
 # Contact
 Contact me on discord peak#0001 if you have any issues or anything, or Join discord.gg/brooklyn (Not support server, My main).
