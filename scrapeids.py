@@ -70,37 +70,36 @@ async def on_ready():
         else:
             print(F"{Fore.GREEN}[-] {Fore.RESET}{Fore.RED} Im not in the guild or its not a guild. {Fore.RESET}")            
             
-    elif choice == "2":
-        os.system("cls")
-        sleep(0.5)
-        print(f"""
-            {Fore.CYAN} MASS SERVER INVITER 
-                            By peak#0001 {Fore.RESET}
-            
-         """)
-        count = 0
-        if memberid == None:
-            print(f"{Fore.GREEN}[-] {Fore.RED} Please add an member id to memberid varaible as stated in README.md. {Fore.RESET}")
-        else:    
-            for guild in bot.guilds:
-                count = count + 1
-                print(f"\n{Fore.GREEN}[=] {Fore.BLUE} Made invite for {guild}{Fore.CYAN}({guild.id} | {len(guild.members)} Members){Fore.WHITE} (TOTAL:{count}/{len(bot.guilds)}){Fore.RESET}")
-                sleep(0.01)
-                try:
-                    channel = guild.channels[0]
-                    link = await channel.create_invite(max_age = 240)
-                    messageto = await bot.fetch_user(memberid)
-                    await messageto.send(f"Invite to: {link} - {guild.owner}")
-                    print(f"{Fore.GREEN}[+] {Fore.BLUE} Sent {member.name} the server invite for {guild.name} {Fore.BLUE}")
-                    sleep(1)
-                except:
-                    try: 
+      elif choice == "2":
+            os.system("cls")
+            sleep(0.5)
+            print(f"""
+                {Fore.CYAN} MASS SERVER INVITER 
+                                By peak#0001 {Fore.RESET}
+
+             """)
+            count = 0
+            if memberid == None:
+                print(f"{Fore.GREEN}[-] {Fore.RED} Please add an member id to memberid varaible as stated in README.md. {Fore.RESET}")
+            else:    
+                for guild in bot.guilds:
+                    count = count + 1
+                    sleep(0.01)
+                    try:
+                        channel = guild.channels[0]
+                        link = await channel.create_invite(max_age = 240)
                         messageto = await bot.fetch_user(memberid)
-                        await guild.owner.send(f"{messageto.name} wants to join **`{guild.name}`**, Please send {messageto} an invite as i couldnt. \n > `requested by {messageto}` *PS: If u get multiple of these message(s) just ignore if already invited.*")
-                        print(f"{Fore.GREEN}    [-] {Fore.WHITE} Message guild owner of {guild.name} ({guild.owner}) {Fore.RESET}")
+                        await messageto.send(f"Invite to: {link} - {guild.owner}")
+                        print(f"{Fore.GREEN}[=] {Fore.BLUE} Made invite for {guild}{Fore.CYAN}({guild.id} | {len(guild.members)} Members){Fore.WHITE} (TOTAL:{count}/{len(bot.guilds)}){Fore.RESET}")
+                        sleep(1)
                     except:
-                        print(f"{Fore.GREEN}    [-] {Fore.RED} Couldnt find/dm the owner of {guild.name} {Fore.RESET}")
-            print(f"\n{Fore.GREEN}[=] {Fore.WHITE} Invited to all servers that {bot.user} is in {Fore.RESET}")
+                        try: 
+                            messageto = await bot.fetch_user(memberid)
+                            await guild.owner.send(f"{messageto.name} wants to join **`{guild.name}`**, Please send {messageto} an invite as i couldnt. \n > `requested by {messageto}` *PS: If u get multiple of these message(s) just ignore if already invited.*")
+                            print(f"{Fore.GREEN}    [-] {Fore.WHITE} Message guild owner of {guild.name} ({guild.owner}) {Fore.RESET}")
+                        except:
+                            print(f"{Fore.GREEN}    [-] {Fore.RED} Couldnt find/dm the owner of {guild.name} {Fore.RESET}")
+                print(f"\n{Fore.GREEN}[=] {Fore.WHITE} Invited to all servers that {bot.user} is in {Fore.RESET}")
 
     elif choice == "3":
         os.system("cls")
