@@ -21,7 +21,7 @@ If the Scraping of the guild members doesn't work check if it has `[]` only in `
 > 3) Message Spammer
 
 # Contact
-Contact me on discord peak#0001 if you have any issues or anything, or Join discord.gg/brooklyn (Not support server, My main).
+Contact me on discord peak#99 if you have any issues or anything, or Join discord.gg/brooklyn (Not support server, My main).
 
 # NOTICE
 This is for Educational Purposes Only, I am not responsible for what people use this for.
