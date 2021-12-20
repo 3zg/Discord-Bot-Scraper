@@ -34,7 +34,7 @@ def masslog_id(id):
         
 
 TOKEN = "<yourtoken>"
-memberid = "<memberid>"
+memberid = "<yourid>"
 
 
 @bot.event
