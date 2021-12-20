@@ -12,7 +12,8 @@ This is written python so install python to make it work.
 NOTE: There is no external data sharing in this repo.
 
 # Extra help
-If the Scraping of the guild members doesn't work check if it has `[]` only in `ids.json` file and try again.
+If the scraping of the guild members doesn't work check if it has `[]` only in `ids.json` file and try again.
+If any of the mass dm doesn't work then check either `allids.json` or `ids.json` has `[]` in it and try again.
 
 # Update
 `` NEW FEATURES = 12th december 2021``
