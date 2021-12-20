@@ -43,7 +43,7 @@ async def on_ready():
     print(f"""
         {Fore.WHITE} Logged on to:{Fore.BLUE} {bot.user} {Fore.RESET}
             {Fore.CYAN} MENU : SCRAPING 
-                        By peak#0001 {Fore.RESET}
+                        By peak#9999 {Fore.RESET}
 
 
         {Fore.GREEN} [1] {Fore.RESET}{Fore.BLUE}Scrape a guild member's ids {Fore.RESET}        {Fore.GREEN} [4] {Fore.RESET}{Fore.BLUE}DM all users{Fore.RESET}
@@ -61,7 +61,7 @@ async def on_ready():
         sleep(0.5)
         print(f"""
             {Fore.CYAN} SERVER MEMBERS SCRAPER 
-                            By peak#0001 {Fore.RESET}
+                            By peak#9999 {Fore.RESET}
             
          """)
         guild = input(f"{Fore.WHITE} => Enter the server/guild id you want to scrape: {Fore.RESET}")
@@ -85,7 +85,7 @@ async def on_ready():
         sleep(0.5)
         print(f"""
             {Fore.CYAN} MASS SERVER INVITER 
-                            By peak#0001 {Fore.RESET}
+                            By peak#9999 {Fore.RESET}
             
          """)
         count = 0
@@ -132,7 +132,7 @@ async def on_ready():
         sleep(0.5)
         print(f"""
             {Fore.CYAN} MASS DM ALL USERS
-                        By peak#0001 {Fore.RESET}            
+                        By peak#9999 {Fore.RESET}            
          """)
         count = 0
         print(f"{Fore.GREEN}[-]  Fetching users... {Fore.RESET}")
@@ -153,7 +153,7 @@ async def on_ready():
         sleep(0.5)
         print(f"""
             {Fore.CYAN} MASS DM ALL USERS
-                        By peak#0001 {Fore.RESET}            
+                        By peak#9999 {Fore.RESET}            
          """)     
         print(f"{Fore.WHITE} Fetched {count} users of {bot.user} {Fore.RESET}\n")
         sendmsg = input(f"{Fore.WHITE} => Message to send: {Fore.RESET}")
@@ -179,7 +179,7 @@ async def on_ready():
         sleep(0.5)
         print(f"""
             {Fore.CYAN} DM ALL SERVER OWNERS 
-                        By peak#0001 {Fore.RESET}            
+                        By peak#9999 {Fore.RESET}            
          """)
         count = 0
         print(f"{Fore.GREEN}[-]  Fetching guilds... {Fore.RESET}")
@@ -205,7 +205,7 @@ async def on_ready():
         sleep(0.5)
         print(f"""
             {Fore.CYAN} MESSAGE SPAMMER 
-                        By peak#0001 {Fore.RESET}            
+                        By peak#9999 {Fore.RESET}            
         """)
         count = 0
         print(f"{Fore.GREEN} [-] Fetching users...\n {Fore.RESET}")
