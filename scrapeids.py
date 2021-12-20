@@ -196,6 +196,7 @@ async def on_ready():
                 print(f"{Fore.GREEN}  [=] {Fore.BLUE} Messaged owner of {guild}{Fore.CYAN} ({guild.id} - {len(guild.members)} Members){Fore.WHITE} (TOTAL:{count}/{len(bot.guilds)}){Fore.RESET}")
                 await guild.owner.send(important)
                 await guild.owner.send(ownermsg)
+                sleep(5)
             except:
                 print(f"{Fore.GREEN} [!] {Fore.RED} Couldnt find/dm the owner of {guild.name} {Fore.RESET}")    
         print(f"\n{Fore.GREEN}[=] {Fore.WHITE} Messaged all servers owner that {bot.user} is in {Fore.RESET}")
