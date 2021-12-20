@@ -70,7 +70,7 @@ async def on_ready():
         else:
             print(F"{Fore.GREEN}[-] {Fore.RESET}{Fore.RED} Im not in the guild or its not a guild. {Fore.RESET}")            
             
-      elif choice == "2":
+    elif choice == "2":
             os.system("cls")
             sleep(0.5)
             print(f"""
