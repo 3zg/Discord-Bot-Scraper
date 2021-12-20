@@ -12,8 +12,8 @@ This is written python so install python to make it work.
 NOTE: There is no external data sharing in this repo.
 
 # Extra help
-If the scraping of the guild members doesn't work check if it has `[]` only in `ids.json` file and try again.
-If any of the mass dm doesn't work then check either `allids.json` or `ids.json` has `[]` in it and try again.
+* If the scraping of the guild members doesn't work check if it has `[]` only in `ids.json` file and try again.
+* If any of the mass dm doesn't work then check either `allids.json` or `ids.json` has `[]` in it and try again.
 
 # Update
 `` NEW FEATURES = 12th december 2021``
@@ -22,7 +22,7 @@ If any of the mass dm doesn't work then check either `allids.json` or `ids.json`
 > 3) Message Spammer
 
 # Contact
-Contact me on discord peak#9999 if you have any issues or anything, or Join discord.gg/brooklyn (Not support server, My main).
+Contact me on discord peak#9999 if you have any issues or anything, or Join discord.gg/desire (Not support server, My main).
 
 # NOTICE
 This is for Educational Purposes Only, I am not responsible for what people use this for.
