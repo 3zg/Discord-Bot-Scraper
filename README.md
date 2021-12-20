@@ -6,8 +6,8 @@ This is written python so install python to make it work.
 > Install all the modules from requirements.txt in this repo.
 
 # Setup - `scrapeids.py` file
-1) `line 27`: Replace `<yourtoken>` with your discord bot's token.
-2) `line 28`: Replace `<yourid>` with your discord id of the account that you want to get dmed with important info.
+1) `line 36`: Replace `<yourtoken>` with your discord bot's token.
+2) `line 37`: Replace `<yourid>` with your discord id of the account that you want to get dmed with important info.
 
 NOTE: There is no external data sharing in this repo.
 
