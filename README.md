@@ -22,7 +22,7 @@ NOTE: There is no external data sharing in this repo.
 > 3) Message Spammer
 
 # Contact
-Contact me on discord peak#9999 if you have any issues or anything, or Join discord.gg/desire (Not support server, My main).
+Contact me on discord goat#1111 if you have any issues or anything.
 
 # NOTICE
 This is for Educational Purposes Only, I am not responsible for what people use this for.
