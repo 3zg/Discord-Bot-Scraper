@@ -5,9 +5,9 @@ This is written python so install python to make it work.
 # Setup - Modules
 > Install all the modules from requirements.txt in this repo.
 
-# Setup - `scrapeids.py` file
-1) `line 36`: Replace `<yourtoken>` with your discord bot's token.
-2) `line 37`: Replace `<yourid>` with your discord id of the account that you want to get dmed with important info.
+# Setup - `data/config.json` file
+1) `line 2`: Replace `<yourtoken>` with your discord bot's token.
+2) `line 3`: Replace `<yourid>` with your discord id of the account that you want to get dmed with important info.
 
 NOTE: There is no external data sharing in this repo.
 
@@ -20,6 +20,11 @@ NOTE: There is no external data sharing in this repo.
 > 1) Mass DM all
 > 2) Mass DM server owners
 > 3) Message Spammer
+
+`` NEW FEATURES = 6th january 2022``
+> 1) Fixed issues
+> 2) No guilds found error handler
+
 
 # Contact
 Contact me on discord Goat#8888 if you have any issues or anything.
